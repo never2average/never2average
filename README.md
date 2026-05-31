@@ -14,16 +14,24 @@
 
 Everything below comes from one belief: express yourself in raw, unstructured form, then let many hypotheses run bottom-up until the thinking gets better. Self-improvement is that loop pointed inward. Vibe coding is the same loop pointed at what I build.
 
-### Self-Improvement → [overview](themes/self-improvement/overview.md)
-
-- **[Immaculate](themes/self-improvement/useimmaculate/overview.md)**: agents with taste, not just output. MVP shipped, public release targeted end of 2026.
-- **[Dover](themes/self-improvement/dover/overview.md)**: security that defends itself, by sandbox-cloning your app and auto-fixing what is genuinely exploitable. In progress.
-- **[Self-improving CFO](themes/self-improvement/self-improving-cfo/overview.md)**: finance as the only honest signal in an agent-run company. In progress.
-
-### Vibe Coding → [overview](themes/vibe-coding/overview.md)
-
-- **[Vibe coding a company](themes/vibe-coding/company/overview.md)**: describe the objective, the harness composes the agents and workflows that run it.
-- **[Vibe coding a financial product](themes/vibe-coding/financial-product/overview.md)**: describe the outcome, it assembles the financial logic behind it.
+- **[Self-Improvement](themes/self-improvement/overview.md)**
+  - **[Immaculate](themes/self-improvement/useimmaculate/overview.md)**: agents with taste, not just output. MVP shipped, public release targeted end of 2026.
+    - [v1](themes/self-improvement/useimmaculate/v1): shipped
+    - [v2](themes/self-improvement/useimmaculate/v2): the hard parts, in progress
+  - **[Dover](themes/self-improvement/dover/overview.md)**: security that defends itself, by sandbox-cloning your app and auto-fixing what is genuinely exploitable.
+    - [web app](themes/self-improvement/dover/web-app): in progress
+    - [RL environment](themes/self-improvement/dover/rl-env): in progress
+  - **[Self-improving CFO](themes/self-improvement/self-improving-cfo/overview.md)**: finance as the only honest signal in an agent-run company.
+    - [open-source CLI](themes/self-improvement/self-improving-cfo/oss-codex-clone)
+    - [vertical AI harness](themes/self-improvement/self-improving-cfo/vertical-ai-harness)
+    - [self-improving background harness](themes/self-improvement/self-improving-cfo/self-improving-bg-harness)
+- **[Vibe Coding](themes/vibe-coding/overview.md)**
+  - **[Vibe coding a company](themes/vibe-coding/company/overview.md)**: describe the objective, the harness composes the agents and workflows that run it.
+    - [v1](themes/vibe-coding/company/v1): a collection of agents
+    - [v2](themes/vibe-coding/company/v2): an operating-system-style product
+  - **[Vibe coding a financial product](themes/vibe-coding/financial-product/overview.md)**: describe the outcome, it assembles the financial logic behind it.
+    - [Agent Bank](themes/vibe-coding/financial-product/agent-bank): v1
+    - [Mynt](themes/vibe-coding/financial-product/mynt): v2
 
 ## Open Roles
 
