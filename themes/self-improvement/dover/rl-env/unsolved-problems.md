@@ -9,4 +9,8 @@ Sources:
 - [DefenderBench](https://github.com/microsoft/DefenderBench)
 - [CyberSOCEval](https://arxiv.org/abs/2509.20166)
 
-The open problem is not a custom recording format. It is whether the RL environment can turn red-team pressure into better generation behavior. If the agent keeps getting stuck in loops, or only learns to patch after the fact, the model has not really learned security.
+The second problem is reward hacking versus real learning. The model can learn to satisfy the environment, silence the red team, or patch after the fact without actually becoming better at secure generation. That would look like progress inside the loop and still fail the product.
+
+The third problem is forgetfulness from the model point of view. Even if one run teaches the right security lesson, the model has to carry that lesson into future coding behavior. If the learning does not survive across tasks, Dover is only running a better local repair loop, not training a more secure coding model.
+
+The open problem is not a custom recording format. It is whether the RL environment can turn red-team pressure into durable security behavior. If the agent keeps getting stuck in loops, reward-hacks the task, or forgets the lesson on the next app, the model has not really learned security.
