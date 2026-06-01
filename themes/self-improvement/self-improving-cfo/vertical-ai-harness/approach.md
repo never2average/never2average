@@ -1,11 +1,11 @@
 # Approach
 
-The vertical AI web app came after Thin Wedge started showing where a CLI bends. The CLI was the right first surface. It was local, fast to set up, and believable. But some parts of the finance operator problem became hard to manage from a terminal alone.
+The full-stack Thin Wedge implementation came after the CLI started showing where a terminal bends. The CLI was the right first surface. It was local, fast to set up, and believable. But some parts of the finance operator problem needed a familiar interface.
 
-Security permissions were the first pressure point. A finance agent touches sensitive business context, tokens, infra, cloud spend, and sometimes execution workflows. That needs a clearer permission surface than a local command loop can comfortably show.
+Permissions were the first pressure point. A solo operator cannot keep remembering what permissions they gave an agent from memory or from a long chat history. A finance agent touches databases, payments, approvals, token spend, infra, and sometimes work for the rest of the team. That needs a visible source of truth.
 
-Visualizations were the second pressure point. Token budgets, forecasts, pricing experiments, and attribution are easier to reason about when the user can see them. A CLI can answer a question. It is not the best place to live with a financial operating picture.
+Generative UI was the second pressure point. I did not want a fixed dashboard for everything. I wanted the product to show projections, spend, simulations, monitoring, and forecasts in the shape the work needed. A CLI can answer a question. It is not always the easiest place to navigate a financial operating picture.
 
-Scheduled tasks were the third pressure point. A CFO layer cannot only respond when someone types a prompt. Some work has to recur: budget checks, spend reviews, forecasts, and reminders around the operating plan.
+Scheduled forecasts were the third pressure point. Cash flow changes. Plans change. Forecasts should run on a cadence instead of waiting for me to remember to ask.
 
-That is why the next version became a web app. The system is still horizontal in capability, but the app is vertical in how it packages the work for a technical product operator. It is partially built now.
+That is why Thin Wedge needed a full-stack version. The agent is still horizontal in capability, but the interface is vertical around the finance work. Most of the web app has been built and is actively being integrated with the API.
