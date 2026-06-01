@@ -1,13 +1,9 @@
 # Unsolved Problems
 
-The unresolved product problem is how to turn a working backend harness into a daily security habit. Dover has to make continuous security posture improvement feel real without burying the user in the same noise that made the existing tools unbearable.
+The backend exists. The two real blockers now are much more concrete.
 
-Open problems:
+The first blocker is Lovable integration. Dover has to connect to the place where the whiteboard apps are actually being built, pull the right application context, and run the harness against something real instead of a prepared demo.
 
-- How to show the difference between "a scanner found this" and "the red team proved this is exploitable."
-- How to make the coding-agent fix reviewable without asking the user to become a security expert.
-- How to make sandbox fidelity visible enough that users trust the result.
-- How to explain daily posture improvement across many fast-moving pull requests.
-- How to turn a Lovable app security run into a simple, repeatable workflow rather than a one-off demo.
+The second blocker is backend-to-UI wiring. The harness can do useful work, but the web app still has to show that work in a way a user can trust: what app was cloned, what the red team found, what changed, and whether the security posture improved.
 
-Dover web app works when a user can choose an app, see the attack and fix path, and believe that tomorrow's version of the app is safer than today's.
+Custom recording format is not the blocker. The blocker is making the Lovable flow and the backend evidence visible enough that the product becomes a daily security habit.
