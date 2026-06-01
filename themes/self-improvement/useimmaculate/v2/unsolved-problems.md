@@ -1,13 +1,12 @@
 # Unsolved Problems
 
-The hardest unresolved piece is the instructor loop. Everything else in v2 depends on whether the system can judge when a code-generation request is worth making. If that gate is wrong, the rest of the architecture just spends compute more elaborately.
+The hardest unresolved piece is the instructor loop. More specifically, it is knowing when to call code generation at all. Code generation is not just another tool call. It burns inference, coding-agent loop time, and infra. If the instructor gate is wrong, the system does not become more tasteful. It just spends the full experiment budget in a more complicated way.
 
-Open problems:
+The second unresolved piece is trajectory comparison. v1 showed that an agent can get trapped in local loops where it keeps spending tokens without making progress. v2 needs parallel trajectories, but parallelism only helps if the system can compare them against grounded checkpoints instead of letting every branch sound promising.
 
-- How to grade a code-generation request before paying the full cost of executing it.
-- How to keep parallel trajectories diverse without letting them become ungrounded branches.
-- How to define a high-confidence checkpoint from generated output, performance movement, and failed future iterations.
-- How to detect when the agent is trapped in a local loop and should branch, rewind, or stop.
-- How to use sandboxes and delegated coding agents without losing the main model's taste and context.
+Those two problems define taste for v2:
 
-The bar for v2 is concrete: on the same servers that v1 was able to deploy in production, v2 should get a 20 percent cost reduction. If it cannot make the already-working search systems cheaper without losing quality, then the instructor loop is not real yet.
+- Can the instructor decide that a code-generation request is worth the total experiment cost?
+- Can the system compare trajectories well enough to avoid spending on branches that only look better in the abstract?
+
+Taste is the cost efficiency of the entire experiment. That includes inference cost, coding-agent loop time, and infra cost. If v2 cannot improve that full cost curve, the instructor loop is not real yet.
