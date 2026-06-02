@@ -1,6 +1,6 @@
-# QA Intern, CFO Vertical AI Harness
+# QA Intern, Thin Wedge Full Stack
 
-The [self-improving CFO](../overview.md)'s vertical harness sits on top of the open-source CLI, and in anything touching money, "probably correct" is not good enough. This role is the conscience of the stack.
+Thin Wedge Full Stack sits on top of Thin Wedge CLI, and in anything touching money, "probably correct" is not good enough. This role is the conscience of the stack.
 
 I want someone fluent in developer tools who treats verification as the work, not the chore.
 

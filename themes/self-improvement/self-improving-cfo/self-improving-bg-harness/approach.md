@@ -1,6 +1,6 @@
 # Approach
 
-The self-improving background harness comes from a simple feeling: the finance function should disappear into the background. Even the full-stack Thin Wedge app, used locally, can feel like a faster horse. It is better than the CLI for permissions, forecasts, and navigation, but it is still something I have to operate.
+Thin Wedge Auto comes from a simple feeling: the finance function should disappear into the background. Even Thin Wedge Full Stack, used locally, can feel like a faster horse. It is better than Thin Wedge CLI for permissions, forecasts, and navigation, but it is still something I have to operate.
 
 A car-like experience is different. I set the direction and the financial goals for the business in quantified terms. The harness has enough finance agents and CLI access to start managing spend around that direction.
 
