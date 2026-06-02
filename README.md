@@ -27,8 +27,8 @@ Everything below comes from one belief: express yourself in raw, unstructured fo
     - [self-improving background harness](themes/self-improvement/self-improving-cfo/self-improving-bg-harness)
 - **[Vibe Coding](themes/vibe-coding/overview.md)**
   - **[Vibe coding a company](themes/vibe-coding/company/overview.md)**: describe the objective, the harness composes the agents and workflows that run it.
-    - [v1](themes/vibe-coding/company/v1): a collection of agents
-    - [v2](themes/vibe-coding/company/v2): an operating-system-style product
+    - [Relay](themes/vibe-coding/company/v1): a collection of agents
+    - [Cabinet](themes/vibe-coding/company/v2): an operating-system-style product
   - **[Vibe coding a financial product](themes/vibe-coding/financial-product/overview.md)**: describe the outcome, it assembles the financial logic behind it.
     - [Agent Bank](themes/vibe-coding/financial-product/agent-bank): v1
     - [Mynt](themes/vibe-coding/financial-product/mynt): v2

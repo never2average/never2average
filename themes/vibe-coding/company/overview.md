@@ -4,5 +4,5 @@ A company is really a harness: a way for many people to share responsibility and
 
 ## Inside
 - [flowchart](flowchart.md)
-- [v1](v1/): a collection of agents
-- [v2](v2/): an operating-system-style product
+- [Relay](v1/): a collection of agents
+- [Cabinet](v2/): an operating-system-style product
