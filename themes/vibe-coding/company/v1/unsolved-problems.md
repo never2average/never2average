@@ -1,13 +1,11 @@
 # Unsolved Problems
 
-The unresolved question in Relay is how much structure to impose before the system starts working. Too little structure creates agent noise. Too much structure turns the product into another workflow builder.
+The real Relay blockers are not abstract company-operating-system problems yet. They are much more concrete.
 
-Open problems:
+The first blocker is validating the 26-week playbook against the CFO-suite output. I have a lived path now. I know the rough sequence. But Relay only becomes real if that sequence can be turned into something another founder can actually follow.
 
-- How to infer the right initial agent set from a founder's objective.
-- How to decide when an agent should act, ask a question, or hand off to another agent.
-- How to keep artifacts and decisions from disappearing into chat history.
-- How to prevent multiple agents from duplicating work or optimizing against different assumptions.
-- How to make the founder review loop fast without making it shallow.
+The second blocker is agent handoff quality. Relay is not valuable because each agent is magical by itself. It is valuable only if the harness passes the right context at the right time. The customer-discovery agent, the agent-boundary work, the UI harness, the eval process, the FinOps tracker, the SRE work, and the implementation-engineering work all have to inherit the right memory.
 
-The Relay milestone is a company workflow that feels composed from language but still leaves behind real work: tasks, decisions, artifacts, and next actions.
+The third blocker is measurement. Each step has to have a visible output. It cannot be "make progress on customer discovery" or "improve the agent." It has to be something that can be checked. Did we collect the use cases? Did we define the boundaries? Did we create synthetic credentials? Did we wire structured integrations? Did we implement evals? Did we find the real POTU metric? Did we reach GA?
+
+Relay works only when someone reaches GA through it.
