@@ -10,8 +10,8 @@ The harder problem is different. It is much harder to vibe code ChatGPT than Sal
 
 I ran into this while trying to build the CFO suite. The journey was not "build a SaaS app, then bolt on an agent." That wastes time. The real journey looked more like a course for building a vertical AI company. Fork and prune a coding harness. Customize prompts and skills. Talk to customers. Collect messy data. Define agent boundaries. Add observability. Create synthetic credentials. Add structured integrations. Build evals. Track cost. Hire around the places where the harness stops being enough.
 
-Relay is the harness for managing that journey.
+Relay is the harness for managing that 26-week playbook.
 
-It does not build the company by itself. That is the wrong claim. Relay guides the founder through the 26-week path, coordinates the right agents at the right stages, and keeps the context moving between them. The founder still owns the company. The plan still comes from the founder. Relay is the switchboard that makes sure the work does not dissolve into chat history.
+It does not build the company by itself. That is the wrong claim. Relay guides the founder through the 26-week playbook, coordinates the right agents at the right stages, and keeps the context moving between them. The founder still owns the company. The plan still comes from the founder. Relay is the switchboard that makes sure the work does not dissolve into chat history.
 
 The proof I want is simple: can the CFO-suite journey become a repeatable company-building path for someone else?
