@@ -1,11 +1,9 @@
 # Unsolved Problems
 
-The real blockers are the same reasons this version exists.
+The remaining blockers are API integration and scale testing.
 
-The first blocker is permissions. The app has to show what the agent can see, what it can change, and what still needs approval. Chat is not deterministic enough for that. A long usage history is not a permission model.
+Most of the app exists: auth, chat, scheduled tasks, permissions, charts, simulations, and the main web surface. The work now is connecting it cleanly to the API and proving it holds up under real usage.
 
-The second blocker is generative UI for the financial picture. The product has to show projections, spend, simulations, monitoring, and forecasts in a way that is easier to navigate than a CLI transcript.
+The user bar is also clearer now. This is not for people with tiny toy spend. The first serious users should be AI application businesses doing at least $1M in ARR, where token spend is large enough to be a real finance problem.
 
-The third blocker is scheduled forecasts. The app needs to run them as cash flow changes, without turning into a noisy notification machine.
-
-The full-stack Thin Wedge implementation works when those three things feel natural: permissions are obvious, the financial picture is visible, and scheduled forecasts keep the operator ahead of spend instead of reacting late.
+The full-stack Thin Wedge implementation works when those operators can use it the same way the CLI is meant to be used: to run finance without hiring a controller, but with a familiar surface for permissions, forecasts, approvals, simulations, and monitoring.
