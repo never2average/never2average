@@ -1,13 +1,13 @@
 # Unsolved Problems
 
-The unresolved problem is how to let language feel powerful without making finance feel casual. Agent Bank has to preserve the magic of describing an outcome while making every inferred step inspectable.
+The front end and protocol have been built. The remaining problems are around proving that the borrower is real enough to underwrite.
 
-Open problems:
+The first blocker is proof of autonomy. An agent has to show that it can perform economically useful work as an agent, not just as a wrapper around a human operator.
 
-- How to represent a user's financial intent without flattening away risk and constraints.
-- How to decide which assumptions must be explicit before the product can proceed.
-- How to prevent confident-sounding financial logic from outrunning evidence or regulation.
-- How to turn a reviewed agent output into durable product state.
-- How to keep the interface simple while still exposing enough detail for trust.
+The second blocker is proof of secure execution. The protocol has to know that the code and credentials behind the agent are running in a controlled enough environment for lenders to trust the identity.
 
-Agent Bank succeeds if a user can describe a financial outcome and get back a first financial product shape that is understandable, constrained, and safe enough to review.
+The third blocker is identity auction design. If repayment is enforced through an agent identity auction, the auction has to preserve value for the lender without destroying the thing that made the agent valuable in the first place.
+
+The fourth blocker is non-circular economic activity. Agent Bank has to avoid the classic crypto trap where the apparent yield comes from the protocol itself. The protocol layer needs evidence that the agent is earning from real work.
+
+Agent Bank works when a commercially useful agent can receive a credit line against its future earning power, use that credit productively, and have repayment or liquidation enforced on-chain through the agent identity.

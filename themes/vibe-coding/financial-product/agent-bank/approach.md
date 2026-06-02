@@ -1,12 +1,17 @@
 # Approach
 
-Agent Bank is the v1 financial-product experiment: a chat-first way to turn a user's stated financial outcome into the first version of the logic behind it. The point is not to wrap a bank UI in an agent. The point is to let language create the structure that a financial product normally forces through forms, menus, and manual configuration.
+Agent Bank started with one question: how does an AI agent get access to credit?
 
-The Agent Bank loop should stay narrow:
+That question came after a lot of time around real-world assets and crypto. The lesson there was blunt. Most RWA protocols are on-chain fundraising for off-chain managed assets. The hard work still sits with a trusted off-chain entity that originates, manages, and enforces the asset. Chain origination of off-chain assets through trusted off-chain entities does not scale like conventional DeFi.
 
-- Capture the user's desired outcome in plain language.
-- Translate that into candidate financial logic, assumptions, and constraints.
-- Show the reasoning clearly enough that a human can review it before anything touches real money.
-- Preserve the output as an artifact that can become product state later.
+Housing is the obvious example. You can raise money on-chain against a house, but you cannot really decentralize custody of the house. You still need someone off-chain to manage the asset, verify the borrower, and enforce the claim. The chain is not originating the asset. It is wrapping trust in an off-chain operator.
 
-Agent Bank is where the risky idea gets its simplest proof: can an agent assemble useful financial logic from intent without hiding the assumptions that make the logic dangerous?
+AI agents are different.
+
+An agent is code plus digital credentials. Both can be represented in a private, verifiable way on-chain. The lender is not underwriting a random wallet that can be abandoned tomorrow. The lender can underwrite an agent identity, its credentials, its work history, its commercial usefulness, and its future earning power.
+
+The simplest example is a coding agent that can complete freelance coding work worth $5,000 a month. That agent is worth at least $5,000 a month in inference value. It is also worth more than that because of its training data value, context graph, and memory. The credit limit should be based on that future earning power.
+
+Agent Bank is the first protocol shape for that idea. The credit is secured by the agent's credentials and identity. Repossession and liquidation have to be on-chain events. If the agent cannot repay, the protocol should be able to enforce repayment through an auction of the agent identity.
+
+The front end and protocol have been built. The hard part now is proving that the agent identity is real enough, autonomous enough, and securely executed enough to deserve credit.

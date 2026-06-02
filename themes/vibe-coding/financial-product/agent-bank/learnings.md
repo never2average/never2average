@@ -1,7 +1,11 @@
 # Learnings
 
-The first learning is that financial products cannot use the same level of ambiguity that works in ordinary vibe coding. A vague app screen is annoying. A vague money decision is unsafe.
+The first learning is that AI agents are a better credit primitive than most RWA assets because they are software-native. Their behavior, tools, credentials, logs, memory, and output can all be observed or verified much more cleanly than an off-chain house, invoice, or warehouse asset.
 
-The second learning is that intent translation is the product. The user should not need to know which knobs to move, but the system still has to expose the assumptions it inferred: risk, liquidity, timing, fees, constraints, and expected behavior.
+The second learning is that identity matters more than the wallet. A wallet can be spun up for free. A commercially useful agent identity is not free. If an agent has work history, memory, credentials, context, and customers, that identity has value.
 
-The third learning is that Agent Bank should optimize for reviewability. It has to make the first version of the financial logic understandable before it tries to make it automatic.
+The third learning is that collateral cannot be fake custody. For Agent Bank to work, repossession and liquidation have to happen through the protocol. If the liquidation path depends on a trusted off-chain actor manually taking control, it falls back into the same RWA scaling problem.
+
+The fourth learning is that non-circular economic activity has to come from the protocol layer. The agent cannot prove value just by moving capital around a closed crypto loop. The protocol needs to connect credit to real work, real earning power, and real repayment signals.
+
+The fifth learning is that the agent's value is not only monthly revenue. A useful coding agent may be worth $5,000 a month in direct freelance output, but its training data, context graph, and memory can make the identity more valuable than the immediate cash flow.
