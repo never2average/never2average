@@ -1,7 +1,11 @@
 # Learnings
 
-The first learning is that financial product creation needs a stronger contract than ordinary app generation. The system has to know when it is brainstorming, when it is proposing logic, and when it is approaching something that could affect real money.
+The first learning is that the product class is the wrong starting point. If Mynt starts with a credit library, an insurance library, and a payments library as separate universes, it will break the moment someone asks for credit advances on insurance reimbursements or a rate-plus-insurance product.
 
-The second learning is that the UI should not make the user become a financial engineer. The user should describe the outcome. Mynt should expose the financial logic only when it matters for trust, review, or correction.
+The second learning is that the primitive graph has to be appendable. I need to be able to discover a new primitive and add it gracefully. But removing primitives is dangerous, because it means the model of finance was wrong enough that previous products may no longer be explainable.
 
-The third learning is that Mynt needs governance from the beginning. Versioning, approvals, assumptions, and monitoring are not enterprise extras here; they are the product's safety mechanism.
+The third learning is that Mynt has to commoditize expertise, not taste. Taste is not the bottleneck here. The hard parts are primitives, composition, constraints, tests, simulations, financial DSL, risk modeling, smart-contract generation, regulatory sensitivity, and verification.
+
+The fourth learning is that Mynt should not be only a generator. Agent Bank would be an app generated, managed, and improved by Mynt. The company harness can handle improvement over time, but Mynt has to create a product structure that can actually be improved.
+
+The fifth learning is that production-grade means everything. The output has to be deployed, tested, monitored, governed, capitalized, secure, and sensitive to compliance. Otherwise Mynt is only a demo builder for financial products, which is the dangerous version.
