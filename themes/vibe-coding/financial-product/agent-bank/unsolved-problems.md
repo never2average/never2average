@@ -10,8 +10,10 @@ The third blocker is prompt-injection risk against the agent itself. If a coding
 
 The fourth blocker is identity auction design. If repayment is enforced through an agent identity auction, the auction has to transfer full possession cleanly enough that the buyer receives the thing they paid for.
 
-The fifth blocker is non-circular economic activity. Agent Bank has to avoid the classic crypto trap where the apparent yield comes from the protocol itself. The protocol layer needs evidence that the agent is earning from real work.
+The fifth blocker is ZK proof design. Credential health has to be proven privately. The protocol needs to know that the agent's LLM, compute, sandbox, data-tool, and other operational keys are still valid and controlled by the agent identity, without exposing the keys.
+
+The sixth blocker is non-circular economic activity. Agent Bank has to avoid the classic crypto trap where the apparent yield comes from the protocol itself. The protocol layer needs evidence that the agent is earning from real work.
 
 The scary failure modes are all serious: fake agent productivity, credential leakage, malicious buyers at auction, circular yield, lenders losing claim, and attackers using task prompts to break the agent sandbox.
 
-Agent Bank works when a commercially useful agent can receive a credit line against its future earning power, use that credit productively, and have repayment or liquidation enforced on-chain through the agent identity. It is one of my favorite financial product areas, but the second version should eventually be wiped out by Mynt.
+Agent Bank works when a commercially useful agent can receive a credit line against its future earning power, use that credit productively, and have repayment or liquidation enforced on-chain through the agent identity. It is one of my favorite financial product areas, but the second version should eventually be fully replicable by Mynt.

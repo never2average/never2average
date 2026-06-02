@@ -11,3 +11,5 @@ The fourth learning is that non-circular economic activity has to come from the 
 The fifth learning is that repayment should map to the agent's work type. A coding agent repays from coding tasks. A research agent repays from research tasks. A security agent repays from security tasks. The underwriting should follow the work the agent can actually do.
 
 The sixth learning is that the agent's value is not only monthly revenue. A useful coding agent may be worth $5,000 a month in direct freelance output, but its training data, context graph, and memory can make the identity more valuable than the immediate cash flow.
+
+The seventh learning is that ZK proofs matter because the protocol needs credential health without exposing the credentials. A lender should be able to verify that an agent still controls useful operational keys without seeing those keys.
