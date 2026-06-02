@@ -1,6 +1,6 @@
 # Approach
 
-The full-stack Thin Wedge implementation came after the CLI started showing where a terminal bends. The CLI was the right first surface. It was local, fast to set up, and believable. But some parts of the finance operator problem needed a familiar interface.
+Thin Wedge Full Stack came after the CLI started showing where a terminal bends. Thin Wedge CLI was the right first surface. It was local, fast to set up, and believable. But some parts of the finance operator problem needed a familiar interface.
 
 Permissions were the first pressure point. A solo operator cannot keep remembering what permissions they gave an agent from memory or from a long chat history. A finance agent touches databases, payments, approvals, token spend, infra, and sometimes work for the rest of the team. That needs a visible source of truth.
 
@@ -10,6 +10,6 @@ By generative UI, I mean the agent should create the right chart, table, or cont
 
 Scheduled forecasts were the third pressure point. Cash flow changes. Plans change. Forecasts should run on a cadence instead of waiting for me to remember to ask.
 
-That is why Thin Wedge needed a full-stack version. The agent is still horizontal in capability, but the interface is vertical around the finance work. The web app shows the permission table, approval queue, scheduled forecast list, spend graph, simulation output, and whatever generated view the question needs.
+That is why Thin Wedge Full Stack exists. The agent is still horizontal in capability, but the interface is vertical around the finance work. The web app shows the permission table, approval queue, scheduled forecast list, spend graph, simulation output, and whatever generated view the question needs.
 
 The first real user is me. Most of the web app has been built. API integration is pending.

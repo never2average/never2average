@@ -1,6 +1,6 @@
-# Marketer / GTM Intern, CFO Self-Improving Background Harness
+# Marketer / GTM Intern, Thin Wedge Auto
 
-This is where the vision gets real: a CFO that improves itself, where a founder steers a swarm with a single sentence and the agents carry the company's financial reality from there. A category this new lives or dies on whether the right people understand it.
+Thin Wedge Auto is where the vision gets real: a CFO that improves itself, where a founder steers a swarm with a single sentence and the agents carry the company's financial reality from there. A category this new lives or dies on whether the right people understand it.
 
 I want a developer-minded marketer who can take a hard technical idea and make the market want it immediately.
 

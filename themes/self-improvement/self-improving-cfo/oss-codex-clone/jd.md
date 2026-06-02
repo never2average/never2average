@@ -1,6 +1,6 @@
-# Tester + Marketer Intern, CFO Open-Source CLI
+# Tester + Marketer Intern, Thin Wedge CLI
 
-Inside a company almost nothing is verifiable except code, and the one honest signal underneath everything is money. The [self-improving CFO](../overview.md) starts as an open-source CLI, and an open-source tool only matters if it is both solid and known.
+Inside a company almost nothing is verifiable except code, and the one honest signal underneath everything is money. The [self-improving CFO](../overview.md) starts with Thin Wedge CLI, an open-source CLI, and an open-source tool only matters if it is both solid and known.
 
 I want someone who lives in the terminal and understands how developer tools actually earn trust and spread.
 

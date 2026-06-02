@@ -32,9 +32,9 @@ Thin Wedge is the near-term proof vehicle. If it can go from concept to meaningf
     - [web app](themes/self-improvement/dover/web-app): in progress
     - [RL environment](themes/self-improvement/dover/rl-env): in progress
   - **[Self-improving CFO](themes/self-improvement/self-improving-cfo/overview.md)**: finance as the only honest signal in an agent-run company.
-    - [open-source CLI](themes/self-improvement/self-improving-cfo/oss-codex-clone)
-    - [vertical AI harness](themes/self-improvement/self-improving-cfo/vertical-ai-harness)
-    - [self-improving background harness](themes/self-improvement/self-improving-cfo/self-improving-bg-harness)
+    - [Thin Wedge CLI](themes/self-improvement/self-improving-cfo/oss-codex-clone)
+    - [Thin Wedge Full Stack](themes/self-improvement/self-improving-cfo/vertical-ai-harness)
+    - [Thin Wedge Auto](themes/self-improvement/self-improving-cfo/self-improving-bg-harness)
 - **[Vibe Coding](themes/vibe-coding/overview.md)**
   - **[Vibe coding a company](themes/vibe-coding/company/overview.md)**: describe the objective, the harness composes the agents and workflows that run it.
     - [Relay](themes/vibe-coding/company/v1): a collection of agents
@@ -51,9 +51,9 @@ One sharp intern per active release. Each link is the full role. Apply by openin
 - **Immaculate v2**: a CS PhD for a few hours on the hard parts. [Role](themes/self-improvement/useimmaculate/v2/jd.md)
 - **Dover web app**: a UI integrator / full-stack engineer. [Role](themes/self-improvement/dover/web-app/jd.md)
 - **Dover RL environment**: a QA tester for the RL environment design. [Role](themes/self-improvement/dover/rl-env/jd.md)
-- **CFO open-source CLI**: a tester and a marketer. [Role](themes/self-improvement/self-improving-cfo/oss-codex-clone/jd.md)
-- **CFO vertical AI harness**: a QA tester for the open-source CLI. [Role](themes/self-improvement/self-improving-cfo/vertical-ai-harness/jd.md)
-- **CFO self-improving background harness**: a marketer / GTM engineer. [Role](themes/self-improvement/self-improving-cfo/self-improving-bg-harness/jd.md)
+- **Thin Wedge CLI**: a tester and a marketer. [Role](themes/self-improvement/self-improving-cfo/oss-codex-clone/jd.md)
+- **Thin Wedge Full Stack**: a QA tester for Thin Wedge CLI. [Role](themes/self-improvement/self-improving-cfo/vertical-ai-harness/jd.md)
+- **Thin Wedge Auto**: a marketer / GTM engineer. [Role](themes/self-improvement/self-improving-cfo/self-improving-bg-harness/jd.md)
 - **Vibe coding a company**: a research collaborator and equal contributor. [Role](themes/vibe-coding/company/jd.md)
 - **Vibe coding a financial product**: a research collaborator and equal contributor. [Role](themes/vibe-coding/financial-product/jd.md)
 

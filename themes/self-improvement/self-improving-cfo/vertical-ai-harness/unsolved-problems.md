@@ -6,4 +6,4 @@ Most of the app exists: auth, chat, scheduled tasks, permissions, charts, simula
 
 The user bar is also clearer now. This is not for people with tiny toy spend. The first serious users should be AI application businesses doing at least $1M in ARR, where token spend is large enough to be a real finance problem.
 
-The full-stack Thin Wedge implementation works when those operators can use it the same way the CLI is meant to be used: to run finance without hiring a controller, but with a familiar surface for permissions, forecasts, approvals, simulations, and monitoring.
+Thin Wedge Full Stack works when those operators can use it the same way Thin Wedge CLI is meant to be used: to run finance without hiring a controller, but with a familiar surface for permissions, forecasts, approvals, simulations, and monitoring.
