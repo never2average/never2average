@@ -8,4 +8,6 @@ The third learning is that collateral cannot be fake custody. For Agent Bank to 
 
 The fourth learning is that non-circular economic activity has to come from the protocol layer. The agent cannot prove value just by moving capital around a closed crypto loop. The protocol needs to connect credit to real work, real earning power, and real repayment signals.
 
-The fifth learning is that the agent's value is not only monthly revenue. A useful coding agent may be worth $5,000 a month in direct freelance output, but its training data, context graph, and memory can make the identity more valuable than the immediate cash flow.
+The fifth learning is that repayment should map to the agent's work type. A coding agent repays from coding tasks. A research agent repays from research tasks. A security agent repays from security tasks. The underwriting should follow the work the agent can actually do.
+
+The sixth learning is that the agent's value is not only monthly revenue. A useful coding agent may be worth $5,000 a month in direct freelance output, but its training data, context graph, and memory can make the identity more valuable than the immediate cash flow.
