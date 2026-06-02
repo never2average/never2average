@@ -12,7 +12,17 @@
 
 ## Projects
 
-Everything below comes from one belief: express yourself in raw, unstructured form, then let many hypotheses run bottom-up until the thinking gets better. Self-improvement is that loop pointed inward. Vibe coding is the same loop pointed at what I build.
+These are product experiments, not companies.
+
+I am not sure yet which one has the highest long-term defensibility or ROI. That is part of the point of this repo. The shared pattern is clearer than the final company shape: I keep finding places where fast interdisciplinary learning and constant management are trapped inside me, then trying to encode that judgment into a system.
+
+My general infatuation is self-improvement, but not in the generic productivity sense. I notice a personal bottleneck, suffer through it long enough to understand its shape, and then try to build a harness that can improve against my own cost function. The harness should preserve my intent and taste while removing the repeated part of the loop.
+
+I do not want to become a full-time people manager just because smart people still need context, monitoring, direction, feedback, and a roadmap. I want the work to reach the standard I expect without me personally managing every loop. The products below are attempts to remove some version of me from the loop: model trajectory management, security triage, token-native finance, founder journey hand-holding, second-company operations, agent-credit design, and financial-product expertise.
+
+The bet is that vibe coding will stop being valuable at the commodity-app layer. A 20% better internal app does not create a 20% better business. The next useful layer is high-judgment systems: products where the hard part is not drawing screens, but encoding the expert loop safely enough that someone else can use it.
+
+Thin Wedge is the near-term proof vehicle. If it can go from concept to meaningful creator value through the 26-week playbook, Relay and Cabinet start to deserve their own existence. Mynt is the product I would personally use the most, because it tries to make financial-product expertise reproducible instead of leaving it trapped in my head.
 
 - **[Self-Improvement](themes/self-improvement/overview.md)**
   - **[Immaculate](themes/self-improvement/useimmaculate/overview.md)**: agents with taste, not just output. MVP shipped, public release targeted end of 2026.
