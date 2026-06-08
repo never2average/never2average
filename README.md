@@ -18,6 +18,12 @@ The harness should preserve my intent and taste while removing the repeated part
 
 Here is how I am trying to implement that.
 
+### Current progress
+
+- **Immaculate Final**: Agent Studio is now the reusable workbench surface: file tree, code viewer, browser, terminal, trajectory, compact chat input, and web-search control are in one generated-code modal.
+- **Dover / Security Agent**: the web app now has the Agent Studio workbench wired into agent management, a bottom-centered **Manage Agent** control on the right sidebar, and a draggable/zoomable React Flow canvas for the sandbox topology.
+- **Latest Security Agent branch**: pushed `web-app-ui` with the workbench, React Flow canvas controls, and right-sidebar agent-management flow.
+
 - **[Self-Improvement](themes/self-improvement/overview.md)**
   - **[Immaculate](themes/self-improvement/useimmaculate/overview.md)**: agents with taste, not just output. MVP shipped, public release targeted end of 2026.
     - [v1](themes/self-improvement/useimmaculate/v1): shipped
