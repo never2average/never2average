@@ -1,1 +1,0 @@
-# verifiable-check-rate

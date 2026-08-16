@@ -1,1 +1,0 @@
-# efficiency-per-compute
