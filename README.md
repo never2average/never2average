@@ -56,9 +56,7 @@ Additionally there is an issue from a storytelling point of view that the previo
 
 ### Legacy company challenge
 
-The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company. You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
-
-Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
+The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company.
 
 I am just very clear: how do you understand what are the older items which have become commodities in terms of their offering, but are effectively decommoditized at scale, and items that become commodities but are not decommoditized at scale? For example, compute is something that very rapidly begins to decommoditize at scale, at least when it comes to developer experience and user experience deliverable over that same set of compute, but then, say, for example, client-facing JavaScript frameworks don't do that, right?
 
@@ -117,11 +115,16 @@ Now let's say you have an average agent, running a limited number of sub-agents 
 
 ### Hero's journey
 
-#### What do you do about this?
+#### If you are the vertical AI company
 If you are in the vertical AI space, keep your head down and focus on the basics:
 1. **Building a tight solution engineering to platform upgrade loop** How quickly can you close the feedback from a hundred solution engineers into a step change upgrade into your platform? Because as a verticalized company, listening to your users is method no. 1 to go in banknot. You need to listen to your solution engineers. They need to have a very good gate pipeline to contribute back to the core codebase and obviously the config master. Keeping as many things configured for them on the fly is important. <br><br>
 2. **Keep focusing on delivering a strong multiplayer experience.** For example, lets say you have an interface that is great for someone who isnt a decision maker I can only do a fixed amount of token consumption. Not scaling with outcomes is not the right way to go ahead even though for a different type of company this may not matter. <br><br>
 3. **Tightly connected agent harness to product evals** Firstly the hardest part in anything vertical AI is defining what the right answer looks like. If you are not constantly spending time on what the right answer looks like and more on what the most explainable or understandable sequence is, you are kind of screwed. Focusing on the right answer and converting them, like business problems, into eval problems is non-negotiable in 2027 at least.
+
+#### If you are the legacy company
+You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
+
+Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
 
 ## Contact
 
