@@ -32,18 +32,27 @@ We are wasting too many tokens. As consumers, we need to get better at using tok
 
 ## After the Great Flood
 
-### Hero's journey
+### The coward's second front
 
-#### What do you do about this?
-If you are in the vertical AI space, keep your head down and focus on the basics:
-1. **Building a tight solution engineering to platform upgrade loop** How quickly can you close the feedback from a hundred solution engineers into a step change upgrade into your platform? Because as a verticalized company, listening to your users is method no. 1 to go in banknot. You need to listen to your solution engineers. They need to have a very good gate pipeline to contribute back to the core codebase and obviously the config master. Keeping as many things configured for them on the fly is important. <br><br>
-2. **Keep focusing on delivering a strong multiplayer experience.** For example, lets say you have an interface that is great for someone who isnt a decision maker I can only do a fixed amount of token consumption. Not scaling with outcomes is not the right way to go ahead even though for a different type of company this may not matter. <br><br>
-3. **Tightly connected agent harness to product evals** Firstly the hardest part in anything vertical AI is defining what the right answer looks like. If you are not constantly spending time on what the right answer looks like and more on what the most explainable or understandable sequence is, you are kind of screwed. Focusing on the right answer and converting them, like business problems, into eval problems is non-negotiable in 2027 at least.
+#### Your vertical AI company cannot pivot into a fullstack AI outcomes company
 
-#### Legacy company challenge
-The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company. You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
+Going into SF, the first thing I heard a lot of people trying to start vertical AI app companies say was "Yeah, we are going to be safe from labs disrupting us is by going full-stack". For example, instead of building a legal AI product, they would build an AI-native law firm. Personally, I have a big vendetta against inexperienced software people just assuming that AI-native X legacy industry, will work simply by default. Even more against investors who think they can rely on this as a scalable strategy for disruption 🤡 with their stupid roll-ups.
 
-Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
+There are three reasons why I feel this is going to fall flat on their face, and these are non-structural reasons. I'll just get to structural reasons later. Right off the bat, here are 3 reasons:
+
+1. **The founder profile is horribly mismatched.** Think about it this way: instead of building an AI coding agent, the full-stack variant of that would be to build an AI software development services firm, right? Do you think the founders of Cursor are the right people to be running Infosys? <br><br>
+2. **The margin structure is different:** The software industry is used to working in a high-margin positive environment. What happens when you start plugging these technologies into businesses that are conventionally at a 35 to 40% gross margin? As they become at a 35 to 40% gross margin rate, the whole org structure, the way you build KPIs, how the company is structured, and who wins all of these things change. <br><br> Customers are not stupid either. They know how much a developer in India really costs a software services company, and they know what sort of margins to allow for their vendor-facing them to run their business in a profitable manner while also keeping their own costs low. If you don't believe me, just look at how much money conventional services companies are losing now that the cost of software implementation, for example, has gone down 5x but their quotations haven't. <br><br>
+3. **The overfitting risk is real**: The reason why the previous generation of SaaS companies did well, is that they thought about scale and generalizability at a level that their customers never could by are always working with 5, 10, 15, 20 different customers. This fails when you're making software internally as a software factory following only one SOP to a use case available to you. At least on the conventional data infra side this creates is a huge overfitting risk. Imagine a giant like Salesforce, who offered GTM people as a service. <br><br> The software they built internally would not work for companies whose offerings were anything other than GTM people, especially if that part of the business was what was driving revenue and was the core CEO focus.
+
+#### Why this is a problem?
+Every business (as on today) needs a CEO focused on taking the business to the next level due to the pace of change. This is true irrespective of the size of your business with even $10bn+ companies needing CEOs to step into an IC role (Benioff, Brian Armstrong) and set a grounded and actionable strategy.
+
+**To deliver a full-stack AI outcomes company, you are not "moving up the stack of defensibility"; you are trying to run business type 3 and business type 4 at the same time.** This is an insanely hard ask for the following 2 reasons because there will be an eternal struggle to:
+1. Attributing revenue between the (effectively 2) parallel business units you are running.<br>
+2. When the quality of revenue being driven by both subparts of the business begins to diverge what do you double down on?<br>
+3. Say there is a new revenue opportunity for $1m but requires more non AI work than your median customer contract and you pursue it, and repeat this process 10 times; you slowly cease to be a vertical AI product company.<br>
+
+Additionally there is an issue from a storytelling point of view that the previous generation of fintech companies quickly found out when the market started valuing them at bank multiples just adjusted for growth rates. Once you reach this point, you have a decision to make. Do you keep spending on R&D to keep your type 3 business going, or double down on becoming a 4 business thats driving revenue?
 
 ### Meditations
 
@@ -101,27 +110,18 @@ Basically figuring out a way to scaling up commodity offerings using non-equity 
 
 Figuring out a way to dismantle the other assets because the parts may genuinely be more valuable. For example, a company like a Monday.com might be more valuable when broken down into saleable RL environments for labs trying to build multiplayer hardness experiences for SMB customers than as a product on its own.
 
-### The coward's second front
+### Hero's journey
 
-#### Your vertical AI company cannot pivot into a fullstack AI outcomes company
+#### What do you do about this?
+If you are in the vertical AI space, keep your head down and focus on the basics:
+1. **Building a tight solution engineering to platform upgrade loop** How quickly can you close the feedback from a hundred solution engineers into a step change upgrade into your platform? Because as a verticalized company, listening to your users is method no. 1 to go in banknot. You need to listen to your solution engineers. They need to have a very good gate pipeline to contribute back to the core codebase and obviously the config master. Keeping as many things configured for them on the fly is important. <br><br>
+2. **Keep focusing on delivering a strong multiplayer experience.** For example, lets say you have an interface that is great for someone who isnt a decision maker I can only do a fixed amount of token consumption. Not scaling with outcomes is not the right way to go ahead even though for a different type of company this may not matter. <br><br>
+3. **Tightly connected agent harness to product evals** Firstly the hardest part in anything vertical AI is defining what the right answer looks like. If you are not constantly spending time on what the right answer looks like and more on what the most explainable or understandable sequence is, you are kind of screwed. Focusing on the right answer and converting them, like business problems, into eval problems is non-negotiable in 2027 at least.
 
-Going into SF, the first thing I heard a lot of people trying to start vertical AI app companies say was "Yeah, we are going to be safe from labs disrupting us is by going full-stack". For example, instead of building a legal AI product, they would build an AI-native law firm. Personally, I have a big vendetta against inexperienced software people just assuming that AI-native X legacy industry, will work simply by default. Even more against investors who think they can rely on this as a scalable strategy for disruption 🤡 with their stupid roll-ups.
+#### Legacy company challenge
+The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company. You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
 
-There are three reasons why I feel this is going to fall flat on their face, and these are non-structural reasons. I'll just get to structural reasons later. Right off the bat, here are 3 reasons:
-
-1. **The founder profile is horribly mismatched.** Think about it this way: instead of building an AI coding agent, the full-stack variant of that would be to build an AI software development services firm, right? Do you think the founders of Cursor are the right people to be running Infosys? <br><br>
-2. **The margin structure is different:** The software industry is used to working in a high-margin positive environment. What happens when you start plugging these technologies into businesses that are conventionally at a 35 to 40% gross margin? As they become at a 35 to 40% gross margin rate, the whole org structure, the way you build KPIs, how the company is structured, and who wins all of these things change. <br><br> Customers are not stupid either. They know how much a developer in India really costs a software services company, and they know what sort of margins to allow for their vendor-facing them to run their business in a profitable manner while also keeping their own costs low. If you don't believe me, just look at how much money conventional services companies are losing now that the cost of software implementation, for example, has gone down 5x but their quotations haven't. <br><br>
-3. **The overfitting risk is real**: The reason why the previous generation of SaaS companies did well, is that they thought about scale and generalizability at a level that their customers never could by are always working with 5, 10, 15, 20 different customers. This fails when you're making software internally as a software factory following only one SOP to a use case available to you. At least on the conventional data infra side this creates is a huge overfitting risk. Imagine a giant like Salesforce, who offered GTM people as a service. <br><br> The software they built internally would not work for companies whose offerings were anything other than GTM people, especially if that part of the business was what was driving revenue and was the core CEO focus.
-
-#### Why this is a problem?
-Every business (as on today) needs a CEO focused on taking the business to the next level due to the pace of change. This is true irrespective of the size of your business with even $10bn+ companies needing CEOs to step into an IC role (Benioff, Brian Armstrong) and set a grounded and actionable strategy.
-
-**To deliver a full-stack AI outcomes company, you are not "moving up the stack of defensibility"; you are trying to run business type 3 and business type 4 at the same time.** This is an insanely hard ask for the following 2 reasons because there will be an eternal struggle to:
-1. Attributing revenue between the (effectively 2) parallel business units you are running.<br>
-2. When the quality of revenue being driven by both subparts of the business begins to diverge what do you double down on?<br>
-3. Say there is a new revenue opportunity for $1m but requires more non AI work than your median customer contract and you pursue it, and repeat this process 10 times; you slowly cease to be a vertical AI product company.<br>
-
-Additionally there is an issue from a storytelling point of view that the previous generation of fintech companies quickly found out when the market started valuing them at bank multiples just adjusted for growth rates. Once you reach this point, you have a decision to make. Do you keep spending on R&D to keep your type 3 business going, or double down on becoming a 4 business thats driving revenue?
+Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
 
 ## Contact
 
