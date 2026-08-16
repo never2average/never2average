@@ -54,6 +54,18 @@ Every business (as on today) needs a CEO focused on taking the business to the n
 
 Additionally there is an issue from a storytelling point of view that the previous generation of fintech companies quickly found out when the market started valuing them at bank multiples just adjusted for growth rates. Once you reach this point, you have a decision to make. Do you keep spending on R&D to keep your type 3 business going, or double down on becoming a 4 business thats driving revenue?
 
+### Legacy company challenge
+
+The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company. You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
+
+Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
+
+I am just very clear: how do you understand what are the older items which have become commodities in terms of their offering, but are effectively decommoditized at scale, and items that become commodities but are not decommoditized at scale? For example, compute is something that very rapidly begins to decommoditize at scale, at least when it comes to developer experience and user experience deliverable over that same set of compute, but then, say, for example, client-facing JavaScript frameworks don't do that, right?
+
+Basically figuring out a way to scaling up commodity offerings using non-equity fundraising instruments without diminishing the enterprise value at hand.
+
+Figuring out a way to dismantle the other assets because the parts may genuinely be more valuable. For example, a company like a Monday.com might be more valuable when broken down into saleable RL environments for labs trying to build multiplayer hardness experiences for SMB customers than as a product on its own.
+
 ### Meditations
 
 #### Structural Layout
@@ -103,13 +115,6 @@ AI agents consume One or two magnitudes more of the conventional infrastructure 
 
 Now let's say you have an average agent, running a limited number of sub-agents and no swarms. You are doing at least 20 steps in a minute, not at once, and doing three to four tool calls per you, so therefore you are having to underwrite effectively 80 phone calls a minute per agent. Out of which, maybe, considering humans are who trained agents and that's what they're mimicking, you should have at least 15 net new queries or make new query patterns where you haven't had the chance to ever do optimization. So basically as a DB company you need to be prepared for 4x scale. As a code repository or storage company you need to be prepared for an equivalent amount of scale, especially when agents are writing traces to disk, because effectively traces are cumulative session logs that you need to store. At 100 sampling, like Sentry, which is used for human activity logging traces, probably had like 2-3-4% sampling. So this is what I'm trying to say basically. Then this goes down to CPU providers and RAM providers and SSD providers and all the way down to infra, like from observability software to literally electricity plants.
 
-#### Challenge to legacy bagholders
-I am just very clear: how do you understand what are the older items which have become commodities in terms of their offering, but are effectively decommoditized at scale, and items that become commodities but are not decommoditized at scale? For example, compute is something that very rapidly begins to decommoditize at scale, at least when it comes to developer experience and user experience deliverable over that same set of compute, but then, say, for example, client-facing JavaScript frameworks don't do that, right?
-
-Basically figuring out a way to scaling up commodity offerings using non-equity fundraising instruments without diminishing the enterprise value at hand.
-
-Figuring out a way to dismantle the other assets because the parts may genuinely be more valuable. For example, a company like a Monday.com might be more valuable when broken down into saleable RL environments for labs trying to build multiplayer hardness experiences for SMB customers than as a product on its own.
-
 ### Hero's journey
 
 #### What do you do about this?
@@ -117,11 +122,6 @@ If you are in the vertical AI space, keep your head down and focus on the basics
 1. **Building a tight solution engineering to platform upgrade loop** How quickly can you close the feedback from a hundred solution engineers into a step change upgrade into your platform? Because as a verticalized company, listening to your users is method no. 1 to go in banknot. You need to listen to your solution engineers. They need to have a very good gate pipeline to contribute back to the core codebase and obviously the config master. Keeping as many things configured for them on the fly is important. <br><br>
 2. **Keep focusing on delivering a strong multiplayer experience.** For example, lets say you have an interface that is great for someone who isnt a decision maker I can only do a fixed amount of token consumption. Not scaling with outcomes is not the right way to go ahead even though for a different type of company this may not matter. <br><br>
 3. **Tightly connected agent harness to product evals** Firstly the hardest part in anything vertical AI is defining what the right answer looks like. If you are not constantly spending time on what the right answer looks like and more on what the most explainable or understandable sequence is, you are kind of screwed. Focusing on the right answer and converting them, like business problems, into eval problems is non-negotiable in 2027 at least.
-
-#### Legacy company challenge
-The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company. You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
-
-Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
 
 ## Contact
 
