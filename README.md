@@ -32,6 +32,8 @@ We are wasting too many tokens. As consumers, we need to get better at using tok
 
 ## After the Great Flood
 
+Since December 2022, there has been a great flood of items on most people's to-do lists. We are doing more than ever by a large multiple, but most people aren't making any money out of it.
+
 ### The coward's second front
 
 #### Your vertical AI company cannot pivot into a fullstack AI outcomes company
