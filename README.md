@@ -128,6 +128,8 @@ You need to have a very coordinated kind of super board of one group CEO and two
 
 Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
 
+By 2028 you will be able to tell them apart from the outside, without the deck.
+
 ## Contact
 
 📍 Bengaluru, India <br>
