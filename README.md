@@ -32,38 +32,96 @@ We are wasting too many tokens. As consumers, we need to get better at using tok
 
 ## After the Great Flood
 
-The flood is the code itself. Generation got cheap before judgment did, so the volume of software arriving now is larger than anyone's ability to read it, review it, or vouch for it. Most of what is being sold is a faster way to make more water.
-
-What survives the flood is not the code. It is the judgment that was encoded before the water rose: the moulds, the harnesses, the formal objects, the accounting that says which tokens bought something real. Everything above is written from the assumption that the flood has already happened, and that the interesting question is what you build on the other side of it.
-
 ### Hero's journey
 
-The old arc was about capability. You left, you suffered, you learned to build the thing, you came back able to build it. That arc is over, because the building part is now the cheap part. Anyone can leave and come back with a working application.
+#### What do you do about this?
+If you are in the vertical AI space, keep your head down and focus on the basics:
+1. **Building a tight solution engineering to platform upgrade loop** How quickly can you close the feedback from a hundred solution engineers into a step change upgrade into your platform? Because as a verticalized company, listening to your users is method no. 1 to go in banknot. You need to listen to your solution engineers. They need to have a very good gate pipeline to contribute back to the core codebase and obviously the config master. Keeping as many things configured for them on the fly is important. <br><br>
+2. **Keep focusing on delivering a strong multiplayer experience.** For example, lets say you have an interface that is great for someone who isnt a decision maker I can only do a fixed amount of token consumption. Not scaling with outcomes is not the right way to go ahead even though for a different type of company this may not matter. <br><br>
+3. **Tightly connected agent harness to product evals** Firstly the hardest part in anything vertical AI is defining what the right answer looks like. If you are not constantly spending time on what the right answer looks like and more on what the most explainable or understandable sequence is, you are kind of screwed. Focusing on the right answer and converting them, like business problems, into eval problems is non-negotiable in 2027 at least.
 
-The post-flood journey is about judgment instead. The trial is not whether you can make the thing, it is whether you can tell which version of it was worth making, and whether you can say why in terms someone else can check. The elixir you return with is not a codebase. It is a mould, a constraint, a metric that survives contact with other people's work.
+#### Legacy company challenge
+The problem that most legacy companies are facing right now is that they need to mandatorily do three and four to even be relevant as an organization in the future. This is where the interpersonal relationships are becoming a problem. It's no longer enough to have one good CEO-level executive for the public company. You need to have a very coordinated kind of super board of one group CEO and two deputy CEOs working on three and four independently. You need to have the ability to set that up quickly enough to leverage from your distribution, because you are not getting innovation till now, and customers are making sure that AI-native companies get distribution.
 
-The failure mode is arriving home with an enormous amount of output and no way to defend any of it.
+Or you have a single executive who has demonstrably shown capabilities to grow two public companies at the same time over time, which, surprise, surprise, is a very small set of one person, Elon Musk.
 
 ### Meditations
 
-Notes I keep having to repeat to myself.
+#### Structural Layout
+Now that I'm done talking about all the examples, you may think, "Oh yes, I am the exception." Here is what you need to understand: it is a structural issue in going full stack from a vertical AI company. There are fundamentally 5 types of companies in the AI age:
 
-- More tokens are intelligence. Tokens alone are not taste.
-- A model that sounds like it is following the plan is not evidence that it is following the plan.
-- Every repeated task you are still paying inference for is a decision you have declined to make.
-- Volume is the easiest thing to produce and the least honest signal available.
-- If you cannot say what a run cost and what it returned, you did not run an experiment. You had an experience.
-- The point is not to remove intent. Keep the intent. Remove the repeated management around it.
+1. Frontier labs
+2. Inference labs
+3. Vertical AI companies
+4. AI-enabled businesses
+5. Infrastructure providers
+
+The problem is that all five of these have very different tasks at hand.
+
+##### Frontier labs
+A foundational lab, as we have seen, is no matter how successful the product is. They can very easily fall behind if they are not able to come up with the next generation of emergent capability in the models at the frontier. It doesn't matter what the capability costs. When it's at the frontier, it does not matter how popular the product is. Yes, GPT would never have lost to Claude. None of that is as relevant as being able to come up with the emerging property that becomes frontier and staying there for an extended amount of time.
+
+The work of the CEO of a frontier lab is to have a unique taste level inside of exactly what it is that is currently a frontier capability and what is the next most important and valuable frontier capability. For example, Open is completely based on the idea that in chart in thread memory is everything, whereas Claude is completely based on the idea that code is everything. Eventually Grock will settle on the fact that citations are everything, and Google will settle on multi-modal and real time is everything, for their own specific reasons. If and when they don't do this, they will have a lot of issues, in one attracting people and two keeping a coherent direction of what everyone is supposed to be working towards.
+
+##### Inference labs
+An inference lab has a very specific role in the ecosystem.
+
+The inference lab has a very, very different thing. The inference lab does not exist to discover frontier capability, but rather to discover different infrastructure constraints that exist at the time of inference, correct? This may be stemming from a latency requirement or a cost requirement or a data localization requirement as the primary three. They can solve this problem either by making smart innovations at the model architecture layer or at the chips layer or at the firmware layer, or by commoditizing certain expertise like writing CUDA kernels. This is the only thing: can they understand, as of date, what is the infra constraint that my customers have, and can I deliver either a public or a privately created, price-performance optimal checkpoint for the foundational model?
+
+##### Vertical AI businesses
+I think the third thing is basically around vertical AI companies. Of course, everyone was an OG, right? At this, everyone had their own stuff, but I think it has become very, very clear now there are only 3 to 4 things that vertical AI companies are supposed to be doing. Innovating on the core product is not one of them, right?
+I feel very, very simply that core AI companies need to get three things right:
+1. Do I have a unique or novel agent in design and all that nonsense?
+2. Have a good GTM strategy to be able to package tokens to the end customer, considering both infra-constrained and hand-for-choice of models and things like that, and the ROI of the use case, and slightly tweaking the harness for task decomposition.
+And maybe you need to be fully staffed for this. Maybe you don't. Maybe you need to be a domain expert. Maybe you don't, but you 100% need to have a very strong grasp on the resource requirements of an agent:
+- its instruction completion/faithfulness rate
+- the amount of cost it will bring to your customer
+- the ROI
+Helping your customer calculate the ROI is something which none of these people are getting right, and I think it will be core to running the business.
+Other than this, obviously, one more thing which a vertical AI company has to work on quite a bit is trying to get off the internet data sets, doing some evals, and having a multi-player strategy for the platform, because vertical AI doesnt exist as a product.
+
+##### AI-enabled businesses
+So for an AI-enabled business what we are looking for is to understand two things:
+1. What are the parts of your business that are system-driven?
+2. What are the parts of the company which are ad-hoc?
+In the stuff that is system-driven you have operational stuff or automated, not automated digital stuff. In operational you have, well I'm still thinking about this. Basically, no one outside the company should ideally have more context than people inside the company and this is something that is horribly wrong.
+Excluding that x case, for any process in a company there is an internal component and there is an outsourcing component.
+I mean basically you need some sort of a meta-harness for top-down agentic adoption in the company, with the ability to pull humans back in the loop, push them out of the loop whenever needed, depending on the scale, importance, reliability needs of a system. Basically are you getting me? You're saying you're running a conventional business which is now AI-enabled. AI-enabled means two things:
+1. It's allowing you to scale your top line from a non-AI offering multiple times faster than you could have done reasonably because you were customers' adoptions, enablement, sales, marketing, operations, supply chains, all of this stuff.I'm still thinking about this. Basically what is an AI-enabled business trying to solve? Is it trying to scale coordination? There are coordination problems, intelligence problems, and data search problems.
+
+##### Infrastructure providers
+AI agents consume One or two magnitudes more of the conventional infrastructure than most of the providers had ever experienced in terms of traffic. Imagine you're running sales force correct as a human, at a time, let's say. In a minute, it takes literally what you need, and then follow that path, right? A conventional dashboard would have maybe four to six static endpoints, which would be really optimized schema wrappers over, let's say, 10 to 15 DB calls. You are effectively sizing your into for 15 DB calls per user.
+
+Now let's say you have an average agent, running a limited number of sub-agents and no swarms. You are doing at least 20 steps in a minute, not at once, and doing three to four tool calls per you, so therefore you are having to underwrite effectively 80 phone calls a minute per agent. Out of which, maybe, considering humans are who trained agents and that's what they're mimicking, you should have at least 15 net new queries or make new query patterns where you haven't had the chance to ever do optimization. So basically as a DB company you need to be prepared for 4x scale. As a code repository or storage company you need to be prepared for an equivalent amount of scale, especially when agents are writing traces to disk, because effectively traces are cumulative session logs that you need to store. At 100 sampling, like Sentry, which is used for human activity logging traces, probably had like 2-3-4% sampling. So this is what I'm trying to say basically. Then this goes down to CPU providers and RAM providers and SSD providers and all the way down to infra, like from observability software to literally electricity plants.
+
+#### Challenge to legacy bagholders
+I am just very clear: how do you understand what are the older items which have become commodities in terms of their offering, but are effectively decommoditized at scale, and items that become commodities but are not decommoditized at scale? For example, compute is something that very rapidly begins to decommoditize at scale, at least when it comes to developer experience and user experience deliverable over that same set of compute, but then, say, for example, client-facing JavaScript frameworks don't do that, right?
+
+Basically figuring out a way to scaling up commodity offerings using non-equity fundraising instruments without diminishing the enterprise value at hand.
+
+Figuring out a way to dismantle the other assets because the parts may genuinely be more valuable. For example, a company like a Monday.com might be more valuable when broken down into saleable RL environments for labs trying to build multiplayer hardness experiences for SMB customers than as a product on its own.
 
 ### The coward's second front
 
-The coward's move is not quitting. It is opening a second front.
+#### Your vertical AI company cannot pivot into a fullstack AI outcomes company
 
-There is a hard problem in front of you: the ranking is wrong, the eval does not discriminate, the primitive graph does not compose. It is unglamorous and it resists you. So you start an adjacent war instead — a refactor, a dashboard, a migration, a parallel fan-out of ten agents, a context graph that will surely help later. All of it is real work. None of it is the work.
+Going into SF, the first thing I heard a lot of people trying to start vertical AI app companies say was "Yeah, we are going to be safe from labs disrupting us is by going full-stack". For example, instead of building a legal AI product, they would build an AI-native law firm. Personally, I have a big vendetta against inexperienced software people just assuming that AI-native X legacy industry, will work simply by default. Even more against investors who think they can rely on this as a scalable strategy for disruption 🤡 with their stupid roll-ups.
 
-Agentic tooling makes this cheap and it makes it look industrious. A second front produces commits, findings, branches, and progress reports, which is exactly why it is so hard to notice you are losing the first one.
+There are three reasons why I feel this is going to fall flat on their face, and these are non-structural reasons. I'll just get to structural reasons later. Right off the bat, here are 3 reasons:
 
-The discipline is to name the front you are actually on, and to treat every parallel effort as something that has to justify its tokens against that front, not against how busy it makes you feel.
+1. **The founder profile is horribly mismatched.** Think about it this way: instead of building an AI coding agent, the full-stack variant of that would be to build an AI software development services firm, right? Do you think the founders of Cursor are the right people to be running Infosys? <br><br>
+2. **The margin structure is different:** The software industry is used to working in a high-margin positive environment. What happens when you start plugging these technologies into businesses that are conventionally at a 35 to 40% gross margin? As they become at a 35 to 40% gross margin rate, the whole org structure, the way you build KPIs, how the company is structured, and who wins all of these things change. <br><br> Customers are not stupid either. They know how much a developer in India really costs a software services company, and they know what sort of margins to allow for their vendor-facing them to run their business in a profitable manner while also keeping their own costs low. If you don't believe me, just look at how much money conventional services companies are losing now that the cost of software implementation, for example, has gone down 5x but their quotations haven't. <br><br>
+3. **The overfitting risk is real**: The reason why the previous generation of SaaS companies did well, is that they thought about scale and generalizability at a level that their customers never could by are always working with 5, 10, 15, 20 different customers. This fails when you're making software internally as a software factory following only one SOP to a use case available to you. At least on the conventional data infra side this creates is a huge overfitting risk. Imagine a giant like Salesforce, who offered GTM people as a service. <br><br> The software they built internally would not work for companies whose offerings were anything other than GTM people, especially if that part of the business was what was driving revenue and was the core CEO focus.
+
+#### Why this is a problem?
+Every business (as on today) needs a CEO focused on taking the business to the next level due to the pace of change. This is true irrespective of the size of your business with even $10bn+ companies needing CEOs to step into an IC role (Benioff, Brian Armstrong) and set a grounded and actionable strategy.
+
+**To deliver a full-stack AI outcomes company, you are not "moving up the stack of defensibility"; you are trying to run business type 3 and business type 4 at the same time.** This is an insanely hard ask for the following 2 reasons because there will be an eternal struggle to:
+1. Attributing revenue between the (effectively 2) parallel business units you are running.<br>
+2. When the quality of revenue being driven by both subparts of the business begins to diverge what do you double down on?<br>
+3. Say there is a new revenue opportunity for $1m but requires more non AI work than your median customer contract and you pursue it, and repeat this process 10 times; you slowly cease to be a vertical AI product company.<br>
+
+Additionally there is an issue from a storytelling point of view that the previous generation of fintech companies quickly found out when the market started valuing them at bank multiples just adjusted for growth rates. Once you reach this point, you have a decision to make. Do you keep spending on R&D to keep your type 3 business going, or double down on becoming a 4 business thats driving revenue?
 
 ## Contact
 
